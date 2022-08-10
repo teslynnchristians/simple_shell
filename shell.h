@@ -23,9 +23,9 @@ char *name;
 int hist;
 
 /**
- * struct list_s - A new struct type defining a linked list.
+* struct list_s - A new struct type defining a linked list.
  * @dir: A directory path.
- * @next: A pointer to another struct list_s.
+* @next: A pointer to another struct list_s.
  */
 typedef struct list_s
 {
@@ -34,9 +34,9 @@ typedef struct list_s
 } list_t;
 
 /**
- * struct builtin_s - A new struct type defining builtin commands.
+* struct builtin_s - A new struct type defining builtin commands.
  * @name: The name of the builtin command.
- * @f: A function pointer to the builtin command's function.
+* @f: A function pointer to the builtin command's function.
  */
 typedef struct builtin_s
 {
@@ -45,11 +45,11 @@ typedef struct builtin_s
 } builtin_t;
 
 /**
- * struct alias_s - A new struct defining aliases.
+* struct alias_s - A new struct defining aliases.
  * @name: The name of the alias.
- * @value: The value of the alias.
+* @value: The value of the alias.
  * @next: A pointer to another struct alias_s.
- */
+*/
 typedef struct alias_s
 {
 	char *name;

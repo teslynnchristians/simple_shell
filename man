@@ -180,4 +180,4 @@ access(2), chdir(2), execve(2), _exit(2), exit(3), fflush(3), fork(2), free(3), 
 This man page borrows from the corresponding man pages sh(1) and dash(1).
 .SH AUTHORS
 Teslynn Christians
-Simon Mobise
+Simon Modise
