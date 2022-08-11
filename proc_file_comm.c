@@ -45,7 +45,7 @@ int cant_open(char *file_path)
  * proc_file_commands - Takes a file and attempts to run the commands stored
  * within.
  * @file_path: Path to the file.
- * @exe_ret: Return value of the last executed command.
+* @exe_ret: Return value of the last executed command.
  *
  * Return: If file couldn't be opened - 127.
  *	   If malloc fails - -1.
