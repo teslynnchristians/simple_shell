@@ -1,4 +1,6 @@
 #include "shell.h"
+#include <string.h>
+#include <stdio.h>
 
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 void assign_lineptr(char **lineptr, size_t *n, char *buffer, size_t b);
@@ -82,7 +84,7 @@ void assign_lineptr(char **lineptr, size_t *n, char *buffer, size_t b)
 	}
 	else
 	{
-		_strcpy(*lineptr, buffer);
+		//_strcpy(*lineptr, buffer);
 		free(buffer);
 	}
 }
