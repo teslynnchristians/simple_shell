@@ -84,7 +84,7 @@ void assign_lineptr(char **lineptr, size_t *n, char *buffer, size_t b)
 	}
 	else
 	{
-		//_strcpy(*lineptr, buffer);
+		_strcpy(*lineptr, buffer);
 		free(buffer);
 	}
 }
